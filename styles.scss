@@ -1,0 +1,16 @@
+.synthwave {
+	filter: drop-shadow(0 0 0.75rem #E003EE);
+}
+
+.web {
+	background: url('resources/background.jpg');
+	background-size: cover;
+}
+
+.egg {
+	font-family: 'Permanent Marker', cursive;
+	filter: drop-shadow(0 0 0.2rem #03F7E9);
+	color: #EF1DB6 !important
+}
+
+@import 'node_modules/bootstrap/scss/bootstrap.scss'
