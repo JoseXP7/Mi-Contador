@@ -6,7 +6,7 @@ let easter = document.querySelector('#easter')
 let surprise = document.querySelector('#surprise')
 let easteregg = document.querySelector('#audio')
 
-let contador = 86
+let contador = 0
 mostrar.innerHTML = contador
 
 const sumarContador = () => {
