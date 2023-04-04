@@ -55,6 +55,8 @@ const reiniciarContador = () => {
 	easter.classList.remove('web')
 	surprise.classList.remove('text-light')
 	surprise.classList.remove('egg')
+	eastergg.pause()
+	easteregg.currentTime = 0
 }
 
 sumar.addEventListener('click', sumarContador)
