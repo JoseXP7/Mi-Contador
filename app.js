@@ -6,7 +6,7 @@ let easter = document.querySelector('#easter')
 let surprise = document.querySelector('#surprise')
 let easteregg = document.querySelector('#audio')
 
-let contador = 0
+let contador = 86
 mostrar.innerHTML = contador
 
 const sumarContador = () => {
@@ -55,7 +55,7 @@ const reiniciarContador = () => {
 	easter.classList.remove('web')
 	surprise.classList.remove('text-light')
 	surprise.classList.remove('egg')
-	eastergg.pause()
+	easteregg.pause()
 	easteregg.currentTime = 0
 }
 
